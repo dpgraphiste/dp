@@ -1,0 +1,1300 @@
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility ;
+    -webkit-font-smoothing: antialiased ;
+    color: #000;
+    width: 100% ;
+    height: 100% ;
+    margin: auto;
+
+}
+
+/* TITRES : A PROPOS, TARIFS PORTFOLIO, CONTACT*/
+h2{
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: #B5CFE9;
+}
+h3{
+    color: #4a5258;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: -5.5px;
+}
+
+
+
+
+                                    /* navigation*/
+
+
+
+.cd-nav__contact li :hover{
+ color: #818a7c;
+     -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+li.adre-nav{
+font-weight: lighter;
+line-height: 28px;
+}
+
+span.sur-titre{
+    font-size: 10px;
+    color: #818a7c;
+    text-transform: uppercase;
+}
+/* MENU BASE*/
+li.fa-nav{
+font-size: 22px;
+font-weight: lighter;
+}
+ li.adre-nav{
+font-size: 20px;
+line-height: 26px;
+ }
+ h6{
+    font-size: 5em;
+    letter-spacing: -5px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    z-index: 0;
+}
+h6 strong{
+    color: #c9c7bb;
+}
+.nav-fonction{
+    color: #949c87;
+} 
+ h6 i{
+text-transform: lowercase;
+ }
+  @media screen and (max-width: 830px) {
+  h6 i{
+    display: inline-block;
+   font-size: 30px;
+   letter-spacing: 0;
+   
+    }
+}
+   @media screen and (max-width: 830px) {
+  h6 strong{
+    display: inline-block;
+   font-size: 30px;
+   letter-spacing: 0;
+   
+    }
+}   
+a.lien-oclok{
+    letter-spacing: 0;
+    font-size: 40px;
+    text-decoration: none;
+    color: #818a7c;
+}
+   @media screen and (max-width: 830px) {
+  a.lien-oclok{
+   display: inline-block;
+   font-size: 16px;
+   letter-spacing: 0;
+   line-height: 110%;
+    }
+} 
+a.lien-oclok:hover{
+   color: #fff;
+}
+
+
+                                       /* BOUTON*/
+
+
+/* BONTON envoyer */
+.btn-default1 {
+    position: relative;
+    text-transform: uppercase;
+    color: #a8b3a2;
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    background-color: transparent;
+    padding: 4px 20px;
+    box-shadow: 5px 6px 8px -5px #2e3236 inset;
+    padding: 14px 20px;
+    margin: 0;
+     font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin-top: 40px;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.btn-default1:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active {
+ background-color:#b02f25; 
+ color: #a8b3a2;
+}
+                                            /* ACCUEIL*/
+
+
+div.text-component{
+    padding-top: 100px;
+}
+
+div.cd-main__content{
+    position: absolute;
+    width: 100%;
+    /*height: 100vh;*/
+    padding-bottom: 50px;
+    display: table;
+    box-shadow: -8px 6px 10px -13px #000;
+
+}
+                                        
+/* accueil section */
+#accueil {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+div .logo1 {
+    position: relative;
+    z-index: 999;
+    animation-name: bounceIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: bounceIn;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.5s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation-name: bounceIn;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes example {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        top: -900px;
+    }
+    to {
+        top: 0px;
+    }
+}
+@keyframes example {
+    0% {
+        opacity: 0;
+    }
+    1% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    from {
+        top: -900px;
+    }
+    to {
+        top: 0px;
+    }
+}
+/* R dans patrick */
+span.r{
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #000 ;
+    opacity: 0.3;
+    font-size: 0.9em;
+    font-weight: lighter;
+    animation-name: fonction;
+    animation-duration: 1.6s;
+    animation-fill-mode: forwards;
+    -o-animation-duration:  1.6s;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-name: fonction;
+    -webkit-animation-duration:  1.6s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+}
+
+/* M dans dumas */
+span.m{
+    position: relative;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 3px #000;
+    opacity: 0.3;
+     font-size: 0.9em;
+    font-weight: lighter;
+    animation-name: fonction1;
+    animation-duration:  1.4s;
+    animation-fill-mode: forwards;
+    -o-animation-name: fonction1;
+    -o-animation-duration:  1.4s;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-name: fonction1;
+    -webkit-animation-duration:  1.4s;
+    -webkit-animation-fill-mode: forwards;
+}
+/* dumas patrick*/
+h1{
+	display: inline-block;
+    font-size: 7.6em;
+    letter-spacing: -8px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    z-index: 0;
+    /*text-shadow:1px 2px 8px #000;*/
+    animation-name: bounceInDown;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: bounceInDown;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation-name: bounceInDown;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    -o-animation-name: bounceInDown;
+    -o-animation-duration: 2s;
+    -o-animation-fill-mode: forwards;
+}
+h1 span{
+	line-height: 120px;
+}
+.fonctions{
+	margin-top: -40px;
+}
+/* freelance*/
+p.fonction1 {
+    display: inline-block;
+    color: #9E9C9C;
+     font-family: 'Oswald', sans-serif;
+    text-shadow: 1px 2px 3px #000;
+    -webkit-text-stroke: 0.3px;
+    -webkit-text-stroke-color: #eb1a1a;
+    font-size: 2.5em;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    animation-name: bounceInUp  ;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: bounceInUp ;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    -o-animation-name: bounceInUp  ;
+    -o-animation-duration: 2s;
+    -o-animation-fill-mode: forwards;
+}
+
+/* le R fleelance*/
+p span.fonction6{
+    color: #d4b319;
+}
+/* le R fleelance*/
+p span.fonction7{
+    color: #10a5c7;
+}
+/* le R fleelance*/
+p span.fonction8{
+    color: #38a32a;
+}
+/* graphiste*/
+p.fonction2 {
+    display: inline-block;
+    position: relative;
+    color: #a8b3a2;
+    margin-left: 7px;
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    text-transform: lowercase;
+    font-family: 'Yesteryear', cursive;
+    /*text-shadow:1px 2px 8px #fff;*/
+    animation-name: fonction2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: fonction2;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    -o-animation-name: fonction2;
+    -o-animation-duration: 2s;
+    -o-animation-fill-mode: forwards;
+}
+/* base maquettiste*/
+p.fonction3{
+    position: relative;
+    display: inline-block;
+
+}
+/*M*/
+span.fonction4{
+ color: #a8b3a2;
+    font-size: 2em;
+    height: auto;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+/* aquettiste */
+span.fonction5 {
+    color: #a8b3a2;
+    position: relative;
+    display: inline-block;
+    border: 0.3px solid #a8b3a2;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+	padding-right: 5px;	
+	padding-left: 5px;
+}
+/* VILLE*/
+div.ville {
+    font-size: 15px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #a8b3a2;
+    letter-spacing: 10px;
+    font-family: 'Oswald', sans-serif;
+    animation-name: bounceInUp;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    -o-animation-name: bounceInUp;
+    -o-animation-duration: 5s;
+    -o-animation-fill-mode: forwards;
+    -webkit-animation-name: bounceInUp;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+}
+hr{
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+
+}
+
+                                                /* APROPOS*/
+                                                
+
+#apropos{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: auto; 
+}
+
+/* APROPOS moi*/
+.imagepropos {
+    width: 40%;
+ opacity: 0.6;
+    display: inline-block;
+}
+   @media screen and (max-width: 830px) {
+  .imagepropos{
+   
+    width: 50%;
+ 
+    }
+} 
+/* DEBUT RECTO VERSO APORPOS */
+
+/* APROPOS bloc verso */
+div.flipcard.h {
+    background-color: transparent;
+    max-width: 100%;
+    height: 290px;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+/* largeur bloc */
+  @media screen and (min-width: 1280px) {
+  .flipcard.h {
+    margin: auto;
+    width: 60%;
+    }
+}
+
+/* APROPOS recto  */
+.front-h {
+    color: #fff;
+    position:absolute;
+    transition: all 0.3s ease-in;
+    box-sizing: border-box;
+    padding: 40px;
+    background-color: transparent;
+    backface-visibility: hidden;
+    -webkit-backface-visibility:hidden;
+    -moz-backface-visibility:hidden;
+    -o-backface-visibility:hidden;
+    -ms-backface-visibility:hidden;
+}
+/* largeur bloc */
+  @media screen and (max-width: 630px) {
+  .front-h{
+    padding: 5px;
+    width: 100%;
+    }
+}
+/* APROPOS verso */
+.back-h{
+  border-radius: 12px;
+  background-color:#e6d630;
+  border: 8px solid #dbcd2e;
+  position:absolute;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in;
+  color: #000;
+  padding: 40px;
+  backface-visibility: hidden;
+  -webkit-backface-visibility:hidden;
+  -moz-backface-visibility:hidden;
+  -o-backface-visibility:hidden;
+  -ms-backface-visibility:hidden;
+  box-shadow: 0px 26px 31px -22px #2e3236;
+  /* box-shadow: 30px 50px 100px -50px #2e3236 ;*/
+}
+/* largeur bloc */
+  @media screen and (max-width: 630px) {
+  .back-h{
+    padding: 5px;
+    width: 100%;
+    }
+}
+/* APROPOS  effet recto verso */
+.flipcard.h:hover .front-h, .flipcard.h.flip .front-h{
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  
+}
+.flipcard.h:hover .back-h, .flipcard.h.flip .back-h{
+  -webkit-transform: rotateY(20deg);
+  -moz-transform: rotateY(20deg);
+  -ms-transform: rotateY(20deg);
+  -o-transform: rotateY(20deg);
+}
+.flipcard.h .back-h{
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  
+}
+
+/* APROPOS texte normal recto verso*/
+p.card-h-text{
+   color: #fff;
+    margin: auto;
+    line-height:30px;
+    font-weight: lighter;
+    font-size: 18px;
+    padding: 10px;
+    text-align: left;
+}
+/* largeur bloc */
+  @media screen and (max-width: 415px) {
+  p.card-h-text{
+  padding: 10px;
+  font-size: 14px;
+  line-height:20px;
+    }
+}
+.card-h-text.back{
+    color:  #818a7c;
+}
+/* APROPOS texte bold recto verso*/
+.card-h-text strong {
+    width: 100%;
+    margin: auto;
+    font-size: 24px;
+    color: #353b40;
+    text-transform: uppercase;
+}
+  @media screen and (max-width: 415px) {
+  .card-h-text strong {
+   padding: 10px;
+   font-size: 18px;
+   line-height:24px;
+    }
+}
+/* APROPOS lettrine recto et verso */
+span.lettrine {
+    font-size: 70px;
+    color: #353b40;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+   
+}
+  @media screen and (max-width: 415px) {
+  span.lettrine {
+   font-size: 30px;
+    }
+}
+
+/* FIN RECTO VERSO APORPOS */
+
+
+/*  APROPOS PARAGRAPHE DES 3 INFOS TITRES */
+h4.titreenplus {
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    letter-spacing: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+  @media screen and (max-width: 740px) {
+  h4.titreenplus  {
+   text-align: center;
+    }
+}
+
+/* APROPOS PARAGRAPHE DES 3 INFOS TEXTE .*/
+p.textenplus {
+    color: #353b40;
+    line-height:28px;
+    text-align: left;
+    font-style: italic;
+    letter-spacing: 0px;
+}
+  @media screen and (max-width: 740px) {
+  p.textenplus {
+   text-align: center;
+    }
+}
+/* APROPOS les 3 icones*/
+i.apropos-icone {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #a8b3a2;
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    -webkit-animation-name: bounce;
+    text-shadow: 0px 2px 3px  #4a5258;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1.5s;
+    /* Safari 4.0 - 8.0 */
+    -webkit-animation-fill-mode: forwards;
+    /* Safari 4.0 - 8.0 */
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    moz-animation-name: bounce;
+    moz-animation-duration: 1.5s;
+    moz-animation-fill-mode: forwards;
+    -o-animation-name: bounce;
+    -o-animation-duration: 1.5s;
+    -o-animation-fill-mode: forwards;
+}
+
+/* APROPOS ligne voir mon CV*/
+a.cv {
+   text-align: left;
+    width: 22%;
+    margin: auto;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+@media screen and (max-width: 480px) {
+    .cv {
+        display: none;
+    }
+}
+/* APROPOS ligne voir mon CV*/
+a.cv:hover {
+    padding: 5px;
+    color: #818a7c;
+    box-shadow: -7px 6px 0px -5px #818a7c;
+    
+}
+
+
+
+                                                /*TARIFS*/
+
+#tarifs {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+}
+.container-tarifs{
+width: 100%;
+margin: auto;
+padding-bottom: 50px;
+}
+  @media screen and (min-width: 1280px) {
+  .container-tarifs {
+    margin: auto;
+    max-width: 66%;
+  flex-shrink : 50;
+    }
+}
+h4.tarifs-devis{
+    margin-bottom: 0;
+    padding-bottom: 30px;
+    font-size: 27px;
+    letter-spacing: 0;
+    margin: auto;
+    text-transform: lowercase;
+    color: #a8b3a2;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+
+/* TARIFS filet qui souligne*/
+hr {
+    height: 5px;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    background: #4a5258;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: 0;
+}
+
+/* TARIFS selection crea + je suis acc………*/
+.anime2 {
+    padding-bottom: 0;
+    font-size: 27px;
+    letter-spacing: 0.5px;
+    margin: auto;
+    text-transform: lowercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.anime2.letter {
+  display: inline-block;
+  line-height: 1em;
+}
+/* TARIFS (Dépendant…*/
+.tarifs-depend {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #a8b3a2;
+    width: 70%;
+    padding: 8px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    border : 0.1px solid #fff;
+    background-color:#818a7c;
+    font-weight: lighter;
+
+}
+/* TARIFS ligne prix ht /TVA*/
+.petit1 {
+    font-size: 13px;
+    margin-top:  20px;
+    margin-bottom: 30px;
+    color: #4a5258;
+}
+
+/* TARIFS TABLEAU base*/
+table.basetableau{
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    opacity: 0.3;
+    background-color:#a8b3a2;
+}
+table.basetableau:hover{
+    opacity: 1;
+}
+/* largeur bloc */
+  @media screen and (min-width: 1280px) {
+  .basetableau {
+    margin: auto;
+    max-width: 66%;
+    }
+}
+/* TARIFS: TABLEAU SUPPORTS*/
+th.bold {
+    text-align: left;
+    margin-top: 10px;
+    padding-left:10px;
+    padding-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-size: 12px;
+    color: #fff;
+}
+th.bold:hover{
+    letter-spacing: -0.5px;
+    font-weight: bold;
+  font-size: 16px;
+    color: #fff;
+}
+/* TARIFS: TABLEAU PRIX*/
+td.cel{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 12px;
+    padding-right: 10px;
+    float: none;
+    border: 0px solid gray;
+    color: #fff;
+    /*background-color: #eff5f6;*/
+}
+td.cel:hover{
+    letter-spacing: -0.5px;
+  font-size: 16px;
+    color: #fff;
+     font-weight: bold;
+}
+
+tr:hover{
+    background-color: #457509;
+
+}
+
+                                                /*PORTFOLIO*/
+
+ #portfolio{
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: auto;  
+}     
+
+/* texte : selection non exhaustive*/
+h2.anime1 {
+    padding-bottom: 0px;
+    font-size: 27px;
+    letter-spacing: 0;
+    margin: auto;
+    text-transform: lowercase;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+}
+strong.para3{
+color: #4a5258;
+    }
+h2.anime1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+h4.anime1 {
+    padding-bottom: 30px;
+    font-size: 27px;
+    letter-spacing: 0;
+    margin: auto;
+    text-transform: lowercase;
+    color: #a8b3a2;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: lighter;
+}
+h4.anime1 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+  @media screen and (max-width: 415px) {
+  .work{
+max-width: 380px;
+    }
+}
+.work-box:hover img {
+ opacity: 0.08;
+ -webkit-transition: all 0.5s ease-out;
+ -moz-transition: all 0.5s ease-out;
+ -ms-transition: all 0.5s ease-out;
+ -o-transition: all 0.5s ease-out;
+ transition: all 0.5s ease-out;
+
+}
+h5.hover-text{
+    position: absolute;
+    padding-top: 80px; 
+    margin: auto;
+    width: 90%;
+    height: 85%;
+    z-index: 9;
+    opacity: 0;
+    font-size: 26px;
+	text-shadow: 1px 1px 2px #2c3628;
+    text-transform: lowercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    -webkit-transition: all 0.3s ease-out;
+ 	-moz-transition: all 0.3s ease-out;
+ 	-ms-transition: all 0.3s ease-out;
+ 	-o-transition: all 0.3s ease-out;
+ 	transition: all 0.3s ease-out;
+}
+h5.hover-text:hover {
+    opacity: 1;
+    color: #4287f5
+}
+/* cadre  portfolio +fond */
+img.img-responsive{
+    margin-bottom: 20px;
+    border-radius: 0px;
+    background-color: none;
+}
+
+
+
+
+                                               /*CONTACT*/
+
+#contact {
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: table;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.enfant-tel, .enfant-mail, .enfant-adresse {
+    margin-bottom: 50px;
+    margin-top: 20px;
+    font-size: 35px;
+    border-radius : 5px;
+}
+.enfant-adresse a{
+    border-radius : 3px;
+    padding: 8px;
+    color: #a8b3a2;
+    font-size: 24px;
+    padding: 6px;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.enfant-adresse a:hover {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+/* border: 0.3px solid #fff;*/
+background-color: #b02f25;
+box-shadow: 5px 6px 8px -5px #2e3236 inset;
+}
+p.enfant-adresse i .fa :hover{
+    color: #a8b3a2;
+
+}
+div .info i{
+    margin-top: 40px;
+    margin-right: 4px;
+    color: #a8b3a2;
+}
+/* CONTACT TELEPHONE */
+.enfant-tel a{
+    border-radius : 3px;
+    padding: 8px;
+    font-size: 24px;
+    color: #a8b3a2;
+    background-color: none;
+    text-decoration: none;
+    height: 10px;
+    font-weight: lighter;
+}
+p.enfant-tel a:hover {
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+/* border: 0.3px solid #fff;*/
+background-color: #b02f25;
+ box-shadow: 5px 6px 8px -5px #2e3236 inset;
+
+}
+/* CONTACT MAIL */
+.enfant-mail a{
+    border-radius : 3px;
+    padding: 8px;
+    text-align: center;
+    background-color: none;
+    height: 10px;
+    font-size: 24px;
+    color: #a8b3a2;
+    text-decoration: none;
+    font-weight: lighter;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+.enfant-mail a:hover {
+ transition: 0.8;
+/* border: 0.3px solid #fff;*/
+background-color: #b02f25;
+box-shadow: 5px 6px 8px -5px #2e3236 inset;
+}
+
+/* DEBUT RECTO VERSO CONTACT */
+
+/* CONTACT ENCADRE RECTO contactez moi pour realiser SUR LA PAGE*/
+p.texte-recto-v {
+    width: auto;
+    font-size: 22px;
+    background-color: transparent;
+    color: #a8b3a2;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Oswald', sans-serif;
+    /*box-shadow:0px 3px 15px #4a5258 inset;*/
+}
+@media screen and (max-width: 1024px) {
+    p.gras {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+/* CONTACT ENCADRE RECTO contactez moi TEXTE GRAS*/
+p.gras strong{
+    color : #a8b3a2;
+}
+
+/* CONTACT ENCADRE VERSO contactez moi pour realiser SUR LA PAGE*/
+p.texte-verso-v {
+    width: auto;
+    font-size: 29px;
+    color: #c21f06;
+    line-height: 36px;
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px 1px 2px #2c3628;   
+    font-family: 'Oswald', sans-serif;
+    /*box-shadow:0px 3px 15px #4a5258 inset;*/
+    }
+@media screen and (max-width: 1024px) {
+    p.texte-verso-v  {
+        font-size: 24px;
+    }
+}
+/* CONTACT base bloc recto verso*/
+.flipcard.v {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 150px;
+    letter-spacing: 0px;
+    transition: transform 1.8s;
+    transform-style: preserve-3d;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    animation-name: bounceIn;
+    animation-duration: 0.8s;
+    perspective: 500px;
+}
+@media screen and (max-width: 1754px) {
+    .flipcard.v {
+        margin-bottom:90px;
+    }
+}
+@media screen and (max-width: 1224px) {
+    .flipcard.v {
+        margin-bottom:100px;
+    }
+}
+@media screen and (max-width: 741px) {
+    .flipcard.v {
+        margin-bottom:120px;
+    }
+}
+@media screen and (max-width: 614px) {
+    .flipcard.v {
+        margin-bottom:140px;
+    }
+}
+@media screen and (max-width: 530px) {
+    .flipcard.v {
+       margin-bottom:180px;
+       width: 100%;
+    }
+}
+@media screen and (max-width: 336px) {
+    .flipcard.v {
+       margin-bottom:200px;
+       width: 100%;
+    }
+}
+/* CONTACT  effet recto verso */
+.flipcard.v:hover .front-v, .flipcard.v.flip .front-v{
+  transform: rotateX(180deg);
+}
+.flipcard.v:hover .back-v, .flipcard.v.flip .back-v{
+  transform: rotateX(0deg);
+}
+.flipcard.v .back-v{
+  transform: rotateX(-180deg);
+}
+
+
+/* CONTACT - APROPOS recto  */
+.front-v {
+  
+    color: #fff;
+    position:absolute;
+   transition: all 0.3s ease-in;
+    width: 100%;
+    padding: 40px 20px 40px  20px;
+    background-color: #818a7c;
+    backface-visibility: hidden;
+    box-shadow: 0px 6px 10px -6px #000;
+
+}
+/* CONTACT - APROPOS verso */
+.back-v{
+  position:absolute;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in;
+  color: #000;
+  padding: 40px 20px 40px  20px;
+  backface-visibility: hidden;
+
+}
+p.cartedevisite{
+    margin-top: 20px;
+}
+/* CONTACT : télécharger ma carte.*/
+p.cartedevisite a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+@media screen and (max-width: 480px) {
+    .cartedevisite {
+        display: none;
+    }
+}
+/* CONTACT : télécharger ma carte.*/
+p.cartedevisite a:hover {
+    color: #494f46;
+    box-shadow: -7px 6px 0px -5px #494f46;
+}
+/* FIN RECTO VERSO CONTACT */
+
+@media screen and (min-width: 1400px) {
+   .formulaire{
+        width:40%;
+    }
+}
+label {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    float: left;
+    color: #a8b3a2
+}
+.form-group{
+background-color: transparent;
+color: #000;
+margin-top: 40px;
+border-color: none;
+}
+/*FORMULAIRE CONTACT*/
+.form-control {
+    display: block;
+    padding: 6px 6px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000;
+    opacity: 
+    border: 0.3 solid #a8b3a2;
+    -webkit-box-shadow: transparent;
+    opacity: 1;
+    height:60px;
+}
+#message{
+    background-color: transparent;
+    text-decoration-style:none;
+    box-shadow: 5px 6px 8px -5px #2e3236 inset;
+    border: transparent;
+}
+#email{
+    background-color: transparent;
+    text-decoration-style:none; 
+   box-shadow: 5px 6px 8px -5px #2e3236 inset;
+   border: transparent;
+}
+#name{
+    background-color: transparent;
+    text-decoration-style:none; 
+    box-shadow: 5px 6px 8px -5px #2e3236 inset;
+    border: transparent;
+}
+#name:hover, #email:hover, #message:hover{
+    background-color: #b02f25;
+}
+.form-control:focus {
+    border-color: none;
+    outline: 0;
+    -webkit-box-shadow: transparent;
+    box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+    color: #a8b3a2;
+
+}
+.form-control:-moz-placeholder {
+    color:#a8b3a2;
+}
+.form-control::-moz-placeholder {
+    color: #a8b3a2;
+}
+.form-control:-ms-input-placeholder {
+    color: #a8b3a2;
+}
+
+#sendmessage {
+    color: green;
+    border:1px solid green;
+    display:none;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#errormessage {
+    color: red;
+    display:none;
+    border:1px solid red;
+    text-align:center;
+    padding:15px;
+    font-weight:600;
+    margin-bottom:15px;
+}
+
+#sendmessage.show, #errormessage.show, .show {
+    display:block;
+}
+
+
+div.social {
+    margin-top: 100px;
+}
+
+.fa .fa-twitter .fa-2x{
+    padding: 20px;
+    margin: 20px;
+}
+#contact .social ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.social a i.fa {
+    font-size: 28px;
+    padding: 10px;
+    margin: 20px;
+    color:#a8b3a2;
+    transition: all 0.5s;
+}
+.social a i.fa:hover {
+    color: #4a5258;
+    border: 0.3px solid #4a5258;
+}
+/* CONTACT copyright © */
+.lignefin {
+    letter-spacing: 0px;
+    color: #fff;
+    width: 100%;
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    /*background-color: #85929e;*/
+    font-size: 12px;
+    /*text-shadow:1px 1px 1px #000;
+    box-shadow:0px 1px 1px #4a5258;*/
+}
+
+.social{
+   display:flex;
+   flex-direction: row;
+   justify-content: center;
+   margin: auto;
+}
+
